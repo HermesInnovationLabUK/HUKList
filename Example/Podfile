@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HUKList_Example' do
+  pod 'HUKList', :path => '../'
+
+  target 'HUKList_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
